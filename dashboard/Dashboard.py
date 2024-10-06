@@ -6,7 +6,7 @@ import matplotlib.ticker as mticker
 sns.set(style='dark')
 
 st.title ("Data Peminjaman Sepeda Tahun 2011-2012")
-df = pd.read_csv("all_data.csv")
+df = pd.read_csv("dashboard/all_data.csv")
 
 st.subheader("Rekap Data ")
 st.write(df)
