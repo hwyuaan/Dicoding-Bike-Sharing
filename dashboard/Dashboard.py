@@ -108,6 +108,7 @@ def bar(df):
 
 
 def bar2(df):
+    st.text("2. Apakah terdapat perbedaan pelonjakan yang terjadi di tahun 2011 dan 2012?")
     group_df = df.groupby('yr')['cnt'].sum().reset_index()
 
     plt.figure(figsize=(12, 6))
@@ -119,7 +120,7 @@ def bar2(df):
     plt.show()
     st.pyplot(plt)
 
-    st.text("2. Apakah terdapat perbedaan pelonjakan yang terjadi di tahun 2011 dan 2012?")
+   
 
 
       
