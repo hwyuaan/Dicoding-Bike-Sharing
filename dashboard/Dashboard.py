@@ -6,8 +6,8 @@ import matplotlib.ticker as mticker
 sns.set(style='dark')
 
 st.title ("Bike Sharing 2011-2012 ✨")
-df1 = pd.read_csv("/dashboard/dt_hour.csv")
-df2 = pd.read_csv("/dashboard/dt_day.csv")
+df1 = pd.read_csv("dashboard/dt_hour.csv")
+df2 = pd.read_csv("dashboard/dt_day.csv")
 
 st.write(df2)
 
